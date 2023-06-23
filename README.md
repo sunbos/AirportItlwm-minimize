@@ -5,6 +5,7 @@ git clone --depth=1 https://github.com/OpenIntelWireless/itlwm.git
 cd itlwm
 git clone --depth=1 https://github.com/acidanthera/MacKernelSDK.git
 ```
+![图片](https://github.com/sunbos/AirportItlwm-minimize/tree/894d4a65eeeb1e12e66ef51201aff199d0dd50ae/image)
 #### 打开IORegistryExplorer应用程序，并搜索itlwm。在AirportItlwm下，检查IOModel属性中加载的固件。
 ![图片](https://github.com/sunbos/AirportItlwm-minimize/blob/1483d612b88a9f4964af81f58c97be6665a948ea/image/IOModel%20Property.png)
 #### 导航到您的itlwm项目文件夹，并在itlwm项目文件夹中，仅保留与./itlwm/itlwm/firmware中IOModel属性匹配的固件。就我而言，我的wifi上加载的固件是iwlwifi-QuZ-a0-hr-b0-68.ucode，其中68是固件版本，可以根据itlwm版本而变化。
